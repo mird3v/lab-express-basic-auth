@@ -4,11 +4,11 @@ const router = express.Router();
 
 /* GET home page */
 router.get("/", (req, res, next) => {
-  res.render("index"); // Render the index view (homepage)
+  res.render("index");
 });
 
 router.get("/signup", (req, res, next) => {
-  res.render("signup"); // Render the signup view
+  res.render("signup");
 });
 
 router.post("/signup", async (req, res, next) => {
